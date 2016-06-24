@@ -62,15 +62,6 @@ function writeToFile(data) {
 }
 
 
-/*
-var handleRequest = function (req, res) {
-    res.writeHead(200, {'Content-Type': 'text/plain; charset=utf-8'});
-    res.end(JSON.stringify(jsonString));
-};
-var server = http.createServer(handleRequest);
-server.listen(3000, 'localhost');*/
-
-
 // bypass downloading and extracting the zip file and just goto xml to json conversion.
 //parseXML.init('aec-mediafeed-results-detailed-verbose-20499.xml');
 parseXML.init('aec-mediafeed-results-detailed-verbose-17496.xml');
