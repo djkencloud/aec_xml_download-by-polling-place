@@ -52,12 +52,12 @@ function writeToFile(data) {
     }.bind(this))
 
     // save out the lot
-    var file = 'json/data.json'
+/*    var file = 'json/data.json'
     var str = JSON.stringify(data);
 
     fs.writeFile(file, str, {}, function() {
         console.log('done')
-    })
+    })*/
 
 }
 
